@@ -1,0 +1,32 @@
+.container {
+    width: 1000px;
+}
+
+.left{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right{
+    width: 20%;
+    display: inline-block;
+}
+
+.profile {
+    margin-left: 10px;
+}
+
+.profile-image {
+    width: 50px;
+    display: inline-block;
+}
+
+.profile-name {
+    display: inline-block;
+}
+
+.right-content {
+    width: 200px;
+    height: 200px;
+}

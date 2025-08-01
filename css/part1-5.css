@@ -1,0 +1,31 @@
+/*
+    .profile - class selector
+     p - tag selector
+     id - id selector
+
+    우선 순위 style > id > class > tag
+*/
+.profile {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.name {
+    text-align: center
+}
+
+/* 모든 tag에 id속성을 주어 적용  적용*/
+.content {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 40px;
+    border: 4px solid black;
+    border-radius: 5px;
+}
