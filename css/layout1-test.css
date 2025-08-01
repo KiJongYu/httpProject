@@ -1,15 +1,19 @@
 .container {
-    width: 1000px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.left{
+.blog-content{
     width: 80%;
+    height: 200px;
     display: inline-block;
     vertical-align: top;
 }
 
-.right{
+.blog-image{
     width: 20%;
+    height: 200px;
     display: inline-block;
 }
 
@@ -17,16 +21,13 @@
     margin-left: 10px;
 }
 
-.profile-image {
+.blog-profile {
     width: 50px;
+    vertical-align: center;
     display: inline-block;
 }
 
-.profile-name {
+.blog-profile-name {
     display: inline-block;
-}
-
-.right-content {
-    width: 200px;
-    height: 200px;
+    vertical-align: top;
 }
