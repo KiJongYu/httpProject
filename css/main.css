@@ -1,3 +1,6 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
 /*
     .profile - class selector
      p - tag selector
@@ -76,3 +79,62 @@
     background-color: grey;
     /*clear: both;*/
 }
+
+table {
+    border-collapse: collapse;
+}
+/*td, th {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+.cart-background {
+    width: 100%;
+    padding: 30px;
+    background-color: #c2d3de;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart-table td,.cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table th:nth-child(2) {
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
