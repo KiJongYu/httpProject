@@ -110,16 +110,75 @@ table {
     width: 700px;
 }
 
+.btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+/**
+    pseudo-class
+    :hover
+    :active
+    :focus
+ */
+.btn:hover {
+    background-color: #0056b3;
+}
 
+.btn:active {
+    background-color: #004085;
+}
 
+.btn:focus {
+    background-color: gray;
+}
 
+.custom-link {
+    text-decoration: none;
+}
 
+.custom-link:link {
+    color: aqua;
+}
 
+.custom-link:visited {
+    color: black;
+}
 
+/**
+    OOCSS 클래스 작명법
+ */
 
+.main-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.bg-red {
+    background-color: red;
+}
 
+.bg-blue {
+    background-color: blue;
+}
+
+.f-small {
+    font-size: 12px;
+}
+
+.f-mid {
+    font-size: 16px;
+}
+
+.f-lg {
+    font-size: 20px;
+}
 
 
 
